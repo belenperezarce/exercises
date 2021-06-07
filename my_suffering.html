@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="D:\CSS\4-exercise\card.css">
+        <link rel="stylesheet" href="D:\CSS\4-exercise\basic-main.css">
+        <style>
+
+            .main {
+                background:#93c3c8 inline-block;
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                height: 100vh;
+            }
+            .main-box {
+                display: flex;    
+                justify-content: space-between;
+                flex: 8; 
+                flex-wrap: wrap;
+            }
+            .hf {
+                background: #cae2e2 border-box;
+                padding: 1rem;
+                font: bold 25px arial;
+                display: flex;
+                flex: 2;
+                margin: 0;
+            }
+            @media screen and (max-width: 600px) {
+                .main-box {
+                    display: flex;
+                    flex: 6;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                }
+                .hf {
+                    display: flex;
+                    flex: 2 0 24%;
+                    flex-direction: column;
+                }
+            }    
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+
+            <nav>
+                <h1 class="hf">cryin'</h1>
+            </nav>
+
+            <div class="main-box" style="background:#93c3c8 border-box;"> 
+
+                <div class="box">
+                    <p class="lyrics">*starts listening to conan gray*</p>
+                </div>
+    
+                <div class="box">
+                    <p class="lyrics">*starts listening to olivia rodrigo*</p>
+                </div>
+        
+                <div class="box">
+                    <p class="lyrics">*starts listening to taylor swift*</p>
+                </div>
+
+            </div>
+
+            <div> 
+                <footer class="hf">still cryin'</footer>
+            </div>
+        </div>
+    </body>
+</html>

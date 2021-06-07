@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="D:\CSS\5-exercise\style.css">
+        <link rel="stylesheet" href="D:\CSS\4-exercise\basic-main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .main {
+                background:#ffffff inline-block;
+                height: 100vh;
+            }
+            .conteiner {
+                margin: 3rem 0 0 0;
+                display: flex;    
+                justify-content: space-around;
+                flex: 8; 
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            .conteiner p {
+                display: inline-block;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            img {
+                width: 340px;
+                height: 510px;
+            }
+        @media screen and (max-width: 600px) {
+            .conteiner {
+                margin: 3rem 1rem;
+                display: inline-flex;
+                flex: 4;
+                /*flex-direction: column;*/
+                flex-wrap: wrap;
+                gap: 1rem;
+                
+            }
+            .conteiner p {
+                display: inline-block;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <h1>AO NO FLAG</h1>
+            <div class="conteiner">
+                <img src="https://otakudesho.net/wp-content/uploads/2020/03/Ao-no-Flag-3.jpg">
+                <div class="main-box"> 
+                    <p>It’s his final year of high school and Ichinose Taichi is acutely aware of the distance between himself and some of his classmates. He’s childhood friends with Mita Touma, but Touma has grown so popular that Taichi keeps him at a distance. Then there’s Futaba Kuze, a shy and clumsy girl that Taichi does his best to avoid.</p>
+                    <p>One day, he discovers that Futaba has a crush on Touma, and she tries to enlist Taichi’s help since she’s so timid and the two boys have been friends for years. But is it really possible for any of them to get closer to another? Through the efforts of these three very different high schoolers, they try to change themselves, navigate relationships, and make the most of their last year in high school.</p>
+                </div>
+                </div>
+            
+        </div>
+    </body>
+</html>
