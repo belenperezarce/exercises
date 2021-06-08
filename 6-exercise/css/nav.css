@@ -1,0 +1,12 @@
+nav {
+    color: white;
+    text-transform: uppercase;
+    background: #404a6f;
+}
+header {
+    padding: 4px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 20px 'Alata';
+}
