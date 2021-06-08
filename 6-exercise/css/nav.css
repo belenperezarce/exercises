@@ -1,12 +1,16 @@
 nav {
+    position: sticky;
     color: white;
     text-transform: uppercase;
-    background: #404a6f;
-}
-header {
-    padding: 4px 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex: 3;
+    background: #404a6f;
+    width: 100%;
+}
+h1 {
+    padding: 0;
+    display: flex;
+    flex: 1;
+    margin: auto;
     font: 20px 'Alata';
 }
