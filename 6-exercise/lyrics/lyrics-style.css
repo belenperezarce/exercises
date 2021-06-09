@@ -1,0 +1,9 @@
+div {
+    width: 100%;
+    margin: auto;
+}
+pre {
+    text-align: center;
+    column-gap: 35%;
+    font: 18px arial;
+}
