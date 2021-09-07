@@ -1,9 +1,38 @@
-div {
-    width: 100%;
-    margin: auto;
+div.main {
+    max-width: 100vw;
+    display: flex;
+    column-gap: 22%;
+    flex-direction: column;
+    margin: 2rem 5rem 2rem 5rem;
 }
-pre {
-    text-align: center;
-    column-gap: 35%;
+p {
     font: 18px arial;
+}
+p.chorus {
+    text-align: center;
+    max-width: 100vw;
+}
+p.verse{
+    text-align: left;
+    max-width: 35vw;
+}
+p.bridge {
+    text-align: right;
+}
+img.verse {
+    float: right;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 2.5rem;
+}
+img.bridge {
+    float: left;
+}
+img.chorus {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 210px;
 }
